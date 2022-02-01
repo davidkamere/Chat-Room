@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'archiaregular';
+    src: url('../../Fonts/Archia Regular Webfont/archia-regular-webfont.eot');
+    src: url('../../Fonts/Archia Regular Webfont/archia-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Fonts/Archia Regular Webfont/archia-regular-webfont.woff2') format('woff2'),
+         url('../../Fonts/Archia Regular Webfont/archia-regular-webfont.woff') format('woff'),
+         url('../../Fonts/Archia Regular Webfont/archia-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.form {
+
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+}
+
+.input {
+  font-family: archiaregular;
+  font-size: medium;
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  font-family: archiaregular;
+  color: #000000 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #e9e429;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.sendButton:hover {
+  background:#f5f7f4;
+  border: 1px solid transparent;
+
+}
